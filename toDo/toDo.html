@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="toDo.css">
+    <script defer src="toDo.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="inputWrapper">
+            <div class="inputIsInside">
+                <input class="taskInput" type="text" placeholder="Enter toDo task..." onkeypress="onInputKeyPress()" />
+                <span class="btnAdd" onclick="OnAddBtnClick()">Add</span>
+            </div>
+
+        </div>
+        <ul id="list" onclick="onItemClick()" class="list">
+
+        </ul>
+    </div>
+</body>
